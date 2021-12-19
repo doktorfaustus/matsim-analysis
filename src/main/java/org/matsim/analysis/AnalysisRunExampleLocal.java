@@ -57,7 +57,7 @@ public class AnalysisRunExampleLocal {
 			outputPath = args[4].substring(args[4].length()-1).equals("/")	?	args[4]	:	args[4]+"/";
 		}
 
-		final String modesString = "car,pt,bike,walk,ride";
+		final String modesString = "car,pt,bike,walk,ride,bicycle";
 		String scenarioCRS = "EPSG:1234";
 		scenarioCRS=null;
 // scenario A
